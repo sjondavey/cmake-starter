@@ -1,0 +1,6 @@
+# project-meta-info.in
+# By adding some 'fast moving' variables, or variables that may need to be set bu the build system,
+# outside of the CMakeLists.txt files minimises the number of time complete rebuild may be required 
+set(PROJECT_NAME_STR cmake_starter)
+set(project_version 0.1.1)
+set(project_description "Monte Carlo simulation of derivatives")
