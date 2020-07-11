@@ -21,7 +21,7 @@ double put_value(double forward, double strike, double sd, double df)
     return put->value();
 }
 
-PYBIND11_MODULE(montecarlo, m)
+PYBIND11_MODULE(cmake_starter, m)
 {
   m.doc() = "pybind11 example plugin";
   m.def("call_value", 
