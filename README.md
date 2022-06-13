@@ -29,7 +29,7 @@ The project structure is:
 ```
 
 ## Calling the library from Python
-I used [Pybind11](https://github.com/pybind/pybind11) for the Python interface. This worked well out the box on my Windows machine (only one installed version of Python) but gave me some issues in Ununtu which had multiple versions of Python installed (see the notes). It also tool me longer than I'm happy to admit that the [documents state very clearly](https://pybind11.readthedocs.io/en/stable/basics.html) that you need to install python-dev or python3-dev packages which are not on Ubuntu by default.
+I used [Pybind11](https://github.com/pybind/pybind11) for the Python interface. This worked well out the box on my Windows machine (only one installed version of Python) but gave me some issues in Ununtu which had multiple versions of Python installed (see the notes). It also took me longer than I'm happy to admit that the [documents state very clearly](https://pybind11.readthedocs.io/en/stable/basics.html) that you need to install python-dev or python3-dev packages which are not on Ubuntu by default.
 
 The project builds an equivalent of `cmake_starter.cp37-win_amd64.pyd` in Windows under the build directory. If you launch a Python from the command line in this directory they the tools is accessed as
 ```python
