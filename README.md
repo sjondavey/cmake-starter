@@ -58,7 +58,7 @@ Here are my chosen tools - and why (it is really important to understand the why
 ### Language: C++ 
 Why: I listened to Lex Fridman's [podcast](https://www.youtube.com/watch?v=uTxRF5ag27A) interview Bjarne Stroustrup. It made me wanted to be a better man! It's not a good answer to why but it is the only one I have. I could have just done this in Python but I'm trying to convince myself that I will require execution speed. I am going to write a Monte Carlo engine next to justify my comment about execution speed! 
 
-### Environnement: Visual Studio Code
+### Environement: Visual Studio Code
 Why: Previously I built Excel Add-Ins (trying to emulate the very goo [quantlib.org](https://www.quantlib.org/) and in particular their excel addin). It was all for Windows and Visual Studio was the only real option. This time I wanted to write something for multiple platforms (ultimately docker to run parallel simulations using infrastructure) so I wanted one tool that I could use in Windows and Ubuntu while I was warming up. VSCode took some time to get into (setting.json and launch.json all assume you know what you are doing - I did not). In the end, I'm really happy with VSCode. The experience in Windows and Ubuntu is identical (for me and at this stage - I'm touching wood that it continues). I use the C++ and CMake extensions. 
 
 ### Package Management: vcpkg
